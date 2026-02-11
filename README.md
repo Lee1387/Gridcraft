@@ -13,7 +13,9 @@ pnpm dev
 
 - `pnpm dev` starts the development server.
 - `pnpm build` runs a type-check and builds for production.
+- `pnpm test` runs the automated tests once.
+- `pnpm test:watch` starts tests in watch mode.
 - `pnpm lint` runs ESLint.
 - `pnpm format` formats the codebase with Prettier.
 - `pnpm format:check` checks formatting without changing files.
-- `pnpm check` runs lint, format checks, and production build validation.
+- `pnpm check` runs lint, format checks, tests, and production build validation.
